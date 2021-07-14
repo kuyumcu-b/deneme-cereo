@@ -250,7 +250,7 @@ ggplot(bike3) +
   facet_wrap(~ weather_fac) +
   ggtitle("Ridership and Temperature") +
   labs(x = "Temperature", y = "Ridership") +
-  theme_linedraw() +
+  theme_gray() +
   theme(
     strip.background = element_rect(fill = NA),
     strip.text = element_text(color = "black")
